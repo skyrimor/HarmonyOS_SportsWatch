@@ -2,7 +2,7 @@
     <div class="container2">
         <picker-view class="pv1" range="{{timeRange}}" selected="1" onchange="timeRangeChange"/>
         <text class="txt">分</text>
-        <image src="/common/hm.png" class="img"/>
+        <image src="/common/hm.png" class="img" />
         <picker-view class="pv2" range="{{speedRange}}" selected="1" onchange="speedRangeChange"/>
     </div>
     <input type="button" value="点击开始" class="btn" onclick="toXunlian"/>

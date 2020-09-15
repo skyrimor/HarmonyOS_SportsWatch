@@ -1,0 +1,43 @@
+{
+  "app": {
+    "bundleName": "com.skyrimor.sportswatch",
+    "vendor": "skyrimor",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 3
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "deviceType": [
+      "liteWearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "name": "default",
+        "icon": "$media:icon",
+        "label": "HarmonyOS_SportsWatch",
+        "type": "page"
+      }
+    ],
+    "js": [
+      {
+        "pages": [
+          "pages/index/index",
+          "pages/daojishi/daojishi",
+          "pages/xunlian/xunlian"
+        ],
+        "name": "default"
+      }
+    ]
+  }
+}

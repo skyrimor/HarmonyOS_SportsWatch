@@ -1,0 +1,11 @@
+<div class="container">
+    <text class="txt">
+        请保持静止
+    </text>
+    <text class="txt">
+        {{daojishi}}秒后跟随训练指引
+    </text>
+    <text class="txt">
+        进行吸气和呼气
+    </text>
+</div>
